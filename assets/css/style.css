@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Press+Start+2P&family=Source+Code+Pro:wght@50&display=swap');
+
+*
+ {
+    padding: 0;
+    margin: 0;
+    font-family: serif, arial, helvetica;
+}
+body {
+    background-color: #adcfca;
+       
+}
+
+header {
+    background-color:#0e172c;;
+    box-shadow: 0px 3px 10px #000000;
+ }
+
+ .navbar { 
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+
+.nav-list {
+   display: flex;
+   align-items: center;
+   
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.item-nav {
+  margin: 0 15px;
+}
+
+.link-item {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fffffe;
+  font-weight: 400;
+
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background-attachment: transparent;
+    border-radius: 25px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0,.5);
+    margin-top: 125px;
+    padding-bottom:  10px;
+    margin-left: 480px;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #fff;
+    background: #0e172c;
+    box-shadow: 5px 5px 15px #000;
+    border-radius: 25px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
+
+
+
+.card-principal {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 3000px;
+    height: 380px;
+    border-radius: 15px;
+    margin-top: 70px;
+    padding-bottom:  10px;
+    background-color: #0e172c;
+    box-shadow: 0px 3px 10px #2e3535;
+}
+.imagem {
+    display: flex;
+    justify-content: left;
+    margin-left: 229px;
+}
+.tenso {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+    box-shadow: 4px 6px 16px #000000;
+}
+
+.text-main {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 200px;
+    color: #fffffe;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.desc {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 200px;
+    color: #fffffe;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+
+}
+
+.musica {
+    display: flex;
+    margin-top: -380px;
+    justify-content: space-between ;
+    margin-left: 1200px;
+    align-items: row;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0e172c;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    border-bottom: -200px;
+    color: #fffffe;
+}
+.footer-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #fffffe;
+}
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i {
+    color: rgb(60, 84, 151);
+}
+
+.footer-final {
+    background: #080d1a;
+    width: 100vw;
+    padding: 8px 0;
+    text-align: center;
+}
+.footer-final p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-final span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
