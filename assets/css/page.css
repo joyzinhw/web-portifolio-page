@@ -9,7 +9,9 @@
 body {
     background-image: url('/assets/img/StockSnap_FSOBBNPKKZ.jpg');
     background-repeat: no-repeat;      
-    background-clip: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: #adcfca;
 }
 
 header {
