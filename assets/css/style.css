@@ -7,6 +7,9 @@
     font-family: serif, arial, helvetica;
 }
 body {
+    background-image: url('/assets/img/StockSnap_FSOBBNPKKZ.jpg');
+    background-repeat: no-repeat;      
+    background-size: cover;
     background-color: #adcfca;
        
 }
